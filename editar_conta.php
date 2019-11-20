@@ -35,7 +35,7 @@ $linha = mysqli_fetch_array($resultado);
     </tr>
     <tr>
       <td width="265"><label for="conta">Conta:</label>
-      <input name="conta" type="text" class="form-control" id="conta"  value="<?php echo $linha['conta'];  ?>" /></td>
+      <input name="conta" type="text" class="form-control" id="conta"  value="<?php echo $linha['conta'];  ?>" readonly/></td>
     </tr>
     <tr>
       <td><label for="saldo">Saldo:</label>
